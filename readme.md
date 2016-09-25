@@ -4,7 +4,7 @@
 ![bower](https://img.shields.io/bower/v/lightgallery.js.svg)
 ![npm](https://img.shields.io/npm/v/lightgallery.js.svg)
 
-Full featured JavaScript lightbox gallery. No dependencies.
+全功能的JavaScript灯箱画廊。无依赖.
 
 ![lightgallery](https://raw.githubusercontent.com/sachinchoolur/lightgallery.js/gh-pages/lightgallery.png)
 
@@ -53,7 +53,7 @@ bower install lightgallery.js --save
 
 ### npm
 
-You can also find `lightgallery` on [npm](https://www.npmjs.com/).
+您还可以找到 `lightgallery` on [npm](https://www.npmjs.com/).
 
 ```sh
 npm install lightgallery.js
@@ -63,9 +63,9 @@ npm install lightgallery.js
 
 您也可以直接从GitHub下载lightgallery.
 
-## Include CSS and JavaScript files
+## 包括CSS和JavaScript文件
 
-First of all add lightgallery.css in the `<head>` of the document.
+首先，加 lightgallery.css 在 `<head>`里面 该文件的.
 
 ```html
 <head>
@@ -73,8 +73,8 @@ First of all add lightgallery.css in the `<head>` of the document.
 </head>
 ```
 
-Then include `lightgallery.min.js` into your document.
-If you want to include any lightgallery plugin you can include it after `lightgallery.min.js`.
+Then include `lightgallery.min.js` 到文档中。
+如果你想包括任何lightgallery插件后可以将其包含 `lightgallery.min.js`.
 
 ```html
 <body>
@@ -99,10 +99,10 @@ require(['./lightgallery.js'], function() {
 });
 ```
 
-## The markup
+## 标记
 
-lightgallery does not force you to use any kind of markup. You can use whatever markup you want.
-But i suggest you to use the following markup.
+lightgallery不强迫你使用任何类型的标记。你可以使用任何你想要的标记。
+但我建议你使用以下的标记.
 [Here](https://sachinchoolur.github.io/lightgallery.js/demos/html-markup.html)
 you can find the detailed examples of different kinds of markup.
 
@@ -118,9 +118,9 @@ you can find the detailed examples of different kinds of markup.
 </div>
 ```
 
-## Call the plugin
+## 调用插件
 
-Finally you need to initiate the gallery by adding the following code.
+最后，你需要通过添加下面的代码以启动图库.
 
 ```js
 <script>
@@ -128,21 +128,21 @@ Finally you need to initiate the gallery by adding the following code.
 </script>
 ```
 
-## Support lightgallery
+## 支持lightgallery
 
-If you like lightgallery please support the project by staring the repository or <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=lightgallery%20-%20Full%20featured%20%23javascript%20lightbox%20gallery%2C%20No%20%23jQuery%20-%20http%3A%2F%2Fbit.ly%2F2amlfJe" target="_blank">tweet</a> about this project.
+如果你喜欢lightgallery请盯着库支持项目或 <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=lightgallery%20-%20Full%20featured%20%23javascript%20lightbox%20gallery%2C%20No%20%23jQuery%20-%20http%3A%2F%2Fbit.ly%2F2amlfJe" target="_blank">tweet</a> about this project.
 
-## Resources
+## 资源
 
-* [API Reference](https://sachinchoolur.github.io/lightgallery.js/docs/api.html)
-* [Events](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#events)
-* [Methods](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#methods)
-* [Data Attributes](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#attributes)
-* [Dynamic variables](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#dynamic)
-* [Sass variables](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#sass)
-* [Module API](https://sachinchoolur.github.io/lightgallery.js/docs/plugin-api.html)
+* [API 参考](https://sachinchoolur.github.io/lightgallery.js/docs/api.html)
+* [事件](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#events)
+* [方法](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#methods)
+* [数据属性](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#attributes)
+* [动态变量](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#dynamic)
+* [萨斯变量](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#sass)
+* [模 API](https://sachinchoolur.github.io/lightgallery.js/docs/plugin-api.html)
 
-## Demos
+## 演示
 
 * Thumbnails
   * [Gallery with animated thumbnails](https://sachinchoolur.github.io/lightgallery.js/demos/)
@@ -171,9 +171,9 @@ If you like lightgallery please support the project by staring the repository or
 * [History/hash plugin](https://sachinchoolur.github.io/lightgallery.js/demos/hash.html)
 * [Social media share](https://sachinchoolur.github.io/lightgallery.js/demos/share.html)
 
-## Built in modules
+## 内置模块
 
-1. Thumbnail - [GItHub](https://github.com/sachinchoolur/lg-thumbnail.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-thumbnial)
+1. 缩略图 - [GItHub](https://github.com/sachinchoolur/lg-thumbnail.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-thumbnial)
 2. Autoplay - [GItHub](https://github.com/sachinchoolur/lg-autoplay.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-autoplay)
 3. Video - [GItHub](https://github.com/sachinchoolur/lg-video.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-video)
 4. Fullscreen - [GItHub](https://github.com/sachinchoolur/lg-fullscreen.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-fullscreen)
@@ -182,7 +182,7 @@ If you like lightgallery please support the project by staring the repository or
 7. Hash - [GItHub](https://github.com/sachinchoolur/lg-hash.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-hash)
 8. Share - [GItHub](https://github.com/sachinchoolur/lg-share.js) - [Docs](https://sachinchoolur.github.io/lightgallery.js/docs/api.html#lg-share)
 
-## Support
+## 支持
 
 Please use GitHub [issue tracker](https://github.com/sachinchoolur/lightgallery.js/issues/new) in the event that you have come across a bug or glitch. It would also be very helpful if you could add a jsFiddle, which would allow you to demonstrate the problem in question.
 
