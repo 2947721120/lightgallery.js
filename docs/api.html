@@ -7,7 +7,7 @@
         <title>lightGallery: API</title>
         <meta name="description" content="Lightgallery comes with lots of options, events, methods to customize the gallery without touching the core code. " />
         <link href="../static/css/main.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href='https://font.c2cmalls.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <!--[if lt IE 9]>
@@ -32,11 +32,11 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="../">Home<span class="border"></span></a></li>
-                        <li class="active"><a href="../docs/">Docs<span class="border"></span></a></li>
-                        <li><a href="../demos/">Demos<span class="border"></span></a></li>
+                        <li><a href="../">首页<span class="border"></span></a></li>
+                        <li class="active"><a href="../docs/index.html">文档<span class="border"></span></a></li>
+                        <li><a href="../demos/">演示<span class="border"></span></a></li>
                         <li><a target="_blank" href="https://github.com/sachinchoolur/lightgallery.js">Github<span class="border"></span></a></li>
-                        <li><a target="_blank" href="http://www.teamwave.com/" onclick="ga('send', 'event', 'teamwave', 'teamwave');">Teamwave<span class="border"></span></a></li> 
+                     
                         
                     </ul>
                 </div>
@@ -51,29 +51,17 @@
                                 <div class="section-header has-desc mrb50">
                                     <h1 class="page-header mrb15">API</h1>
                                     <p>
-                                        Lightgallery comes with a lot of options, events, and methods to customize the gallery without touching the core code. You can find both Lightgallery core options, and the built in plugin options here.
+                                        光廊自带了很多的选项，事件和方法来定制库，而不触及核心代码。你可以找到既Lightgallery核心选项，以及内置的插件选择这里.
                                     </p>
                                 </div>
-                                <div class="docs-ad">
-                                    <div class="lg-ad light">
-                                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- lg1.2docs-top -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-2888290830590449"
-     data-ad-slot="7879883012"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-                                    </div>
-                                </div>
+                               
                                 <h2 class="anchor-title mrb30" id="options">
-                                    <a href="#options">Options</a>
+                                    <a href="#options">选项</a>
                                     <span class="border"></span>
                                 </h2>
                                 <div class="code-demo">
                                     <h3 class="anchor-title mrb15" id="passing-options">
-                                    <a href="#passing-options">Passing options</a>
+                                    <a href="#passing-options">传递选项</a>
                                     </h3>
                                     <div class="sample-code html">
 <pre class="prettyprint linenums lang-js">
@@ -88,537 +76,537 @@ lightGallery(document.getElementById('lightgallery'), {
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lightgallery-core">
-                                <a href="#lightgallery-core">lightgallery core</a>
+                                <a href="#lightgallery-core">lightgallery核心</a>
                                 </h3>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>mode</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'lg-slide'</code></td>
-                                            <td>Type of transition between images. lightGallery comes with lots of transition effects such as <code>'lg-slide'</code><code>'lg-fade'</code><code>'lg-zoom-in'</code><code>'lg-zoom-in-big'</code><code>'lg-zoom-out'</code><code>'lg-zoom-out-big'</code><code>'lg-zoom-out-in'</code><code>'lg-zoom-in-out'</code><code>'lg-soft-zoom'</code><code>'lg-scale-up'</code><code>'lg-slide-circular'</code><code>'lg-slide-circular-vertical'</code><code>'lg-slide-vertical'</code><code>'lg-slide-vertical-growth'</code><code>'lg-slide-skew-only'</code><code>'lg-slide-skew-only-rev'</code><code>'lg-slide-skew-only-y'</code><code>'lg-slide-skew-only-y-rev'</code><code>'lg-slide-skew'</code><code>'lg-slide-skew-rev'</code><code>'lg-slide-skew-cross'</code><code>'lg-slide-skew-cross-rev'</code><code>'lg-slide-skew-ver'</code><code>'lg-slide-skew-ver-rev'</code><code>'lg-slide-skew-ver-cross'</code><code>'lg-slide-skew-ver-cross-rev'</code><code>'lg-lollipop'</code><code>'lg-lollipop-rev'</code><code>'lg-rotate'</code><code>'lg-rotate-rev'</code><code>'lg-tube'</code>. You can find detaild demo <a href="../demos/transitions.html">here</a></td>
+                                            <td>图像之间的过渡类型。 lightGallery带有大量的过渡效果，如 <code>'lg-slide'</code><code>'lg-fade'</code><code>'lg-zoom-in'</code><code>'lg-zoom-in-big'</code><code>'lg-zoom-out'</code><code>'lg-zoom-out-big'</code><code>'lg-zoom-out-in'</code><code>'lg-zoom-in-out'</code><code>'lg-soft-zoom'</code><code>'lg-scale-up'</code><code>'lg-slide-circular'</code><code>'lg-slide-circular-vertical'</code><code>'lg-slide-vertical'</code><code>'lg-slide-vertical-growth'</code><code>'lg-slide-skew-only'</code><code>'lg-slide-skew-only-rev'</code><code>'lg-slide-skew-only-y'</code><code>'lg-slide-skew-only-y-rev'</code><code>'lg-slide-skew'</code><code>'lg-slide-skew-rev'</code><code>'lg-slide-skew-cross'</code><code>'lg-slide-skew-cross-rev'</code><code>'lg-slide-skew-ver'</code><code>'lg-slide-skew-ver-rev'</code><code>'lg-slide-skew-ver-cross'</code><code>'lg-slide-skew-ver-cross-rev'</code><code>'lg-lollipop'</code><code>'lg-lollipop-rev'</code><code>'lg-rotate'</code><code>'lg-rotate-rev'</code><code>'lg-tube'</code>. 你可以找到详细的演示 <a href="../demos/transitions.html">here</a></td>
                                         </tr>
                                         <tr>
                                             <td>cssEasing</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'ease'</code></td>
-                                            <td>Type of easing to be used for css animations</td>
+                                            <td>要停止使用的类型CSS动画</td>
                                         </tr>
                                         <tr>
                                             <td>speed</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>600</code></td>
-                                            <td>Transition duration (in ms).</td>
+                                            <td>转换时间（毫秒）.</td>
                                         </tr>
                                         <tr>
                                             <td>height</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'100%'</code></td>
-                                            <td>Height of the gallery. ex: <code>'100%'</code> , <code>'300px'</code></td>
+                                            <td>画廊的高度。恩: <code>'100%'</code> , <code>'300px'</code></td>
                                         </tr>
                                         <tr>
                                             <td>width</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'100%'</code></td>
-                                            <td>Width of the gallery. ex: <code>'100%'</code> , <code>'300px'</code></td>
+                                            <td>画廊的宽度。恩: <code>'100%'</code> , <code>'300px'</code></td>
                                         </tr>
                                         <tr>
                                             <td>addClass</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>''</code></td>
-                                            <td>Add custom class for gallery, can be used to set different style for different gallery</td>
+                                            <td>添加自定义类的画廊，可以用来设置不同的画廊不同的风格</td>
                                         </tr>
                                         <tr>
                                             <td>startClass</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'lg-start-zoom'</code></td>
-                                            <td>Starting animation class for the gallery.</td>
+                                            <td>启动动画类图库.</td>
                                         </tr>
                                         <tr>
-                                            <td>backdropDuration</td>
-                                            <td>number</td>
+                                            <td>背景时间</td>
+                                            <td>数字</td>
                                             <td><code>150</code></td>
-                                            <td>Lightgallery backdrop transtion duration. Do not change the value of backdrop via css.</td>
+                                            <td>Lightgallery背景转换时间。不要更改通过CSS的大背景下的价值.</td>
                                         </tr>
                                         <tr>
-                                            <td>hideBarsDelay</td>
-                                            <td>number</td>
+                                            <td>隐藏酒吧延迟</td>
+                                            <td>数字</td>
                                             <td><code>6000</code></td>
-                                            <td>Delay for hiding gallery controls in ms</td>
+                                            <td>延时以毫秒为隐藏画廊控制</td>
                                         </tr>
                                         <tr>
                                             <td>useLeft</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>force lightgallery to use css left property instead of transform.</td>
+                                            <td>强制lightgallery用css左属性，而不是变换.</td>
                                         </tr>
                                         <tr>
                                             <td>closable</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>allows clicks on dimmer to close gallery.</td>
+                                            <td>允许调光器上点击关闭图库.</td>
                                         </tr>
                                         <tr>
                                             <td>loop</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>If <code>false</code>, will disable the ability to loop back to the beginning of the gallery when on the last element.</td>
+                                            <td>如果 <code>false</code>,将禁用循环的能力回到画廊开始的最后一个元素上时，.</td>
                                         </tr>
                                         <tr>
                                             <td>escKey</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Whether the LightGallery could be closed by pressing the "Esc" key.</td>
+                                            <td>是否LightGallery可以通过按压封闭 "Esc" key.</td>
                                         </tr>
                                         <tr>
                                             <td>keyPress</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable keyboard navigation</td>
+                                            <td>启用键盘导航</td>
                                         </tr>
                                         <tr>
                                             <td>controls</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>If <code>false</code>, prev/next buttons will not be displayed.</td>
+                                            <td>如果<code>false</code>, 上一个/下一个按钮将不会显示.</td>
                                         </tr>
                                         <tr>
-                                            <td>slideEndAnimatoin</td>
+                                            <td>滑动动画</td>
                                             <td>bolean</td>
                                             <td><code>true</code></td>
-                                            <td>Enable slideEnd animation</td>
+                                            <td>启用幻灯片和动画</td>
                                         </tr>
                                         <tr>
-                                            <td>hideControlOnEnd</td>
-                                            <td>boolean</td>
+                                            <td>隐藏控制竖着</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>If <code>true</code>, prev/next button will be hidden on first/last image.</td>
+                                            <td>如果<code>true</code>, 上一个/下按钮，将在第一/最后的图像被隐藏.</td>
                                         </tr>
                                         <!-- <tr>
                                             <td>mousewheel</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
                                             <td>Change slide on mousewheel</td>
                                         </tr> -->
                                         <tr>
                                             <td>getCaptionFromTitleOrAlt:</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Option to get captions from alt or title tags.</td>
+                                            <td>选项来获得ALT或标题标签标题.</td>
                                         </tr>
                                         <tr>
-                                            <td>appendSubHtmlTo</td>
-                                            <td>string</td>
+                                            <td>追加分的HTML</td>
+                                            <td>字符串</td>
                                             <td><code>'.lg-sub-html'</code></td>
-                                            <td>You can specify where the sub-html should be appended. <code>'.lg-sub-html'</code> or <code>'.lg-item'</code></td>
+                                            <td>您可以指定子HTML应附加. <code>'.lg-sub-html'</code> 要么<code>'.lg-item'</code></td>
                                         </tr>
                                         <tr>
-                                            <td>subHtmlSelectorRelative</td>
-                                            <td>boolean</td>
+                                            <td>子的Html选择相对</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>Set to true if the selector in "data-sub-html" should use the current item as its origin.</td>
+                                            <td>设置为true，如果在选择“数据子HTML”应该使用当前项目作为其起源.</td>
                                         </tr>
                                         <tr>
                                             <td>preload</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>1</code></td>
-                                            <td>Number of preload slides. will exicute only after the current slide is fully loaded. ex:// you clicked on 4th image and if preload = 1 then 3rd slide and 5th slide will be loaded in the background after the 4th slide is fully loaded.. if preload is 2 then 2nd 3rd 5th 6th slides will be preloaded</td>
+                                            <td>预紧幻灯片的数量。将exicute只有在当前幻灯片满载。例如：//你点击第四图像上，如果预紧= 1，则第3滑动和第5滑动将在第四幻灯片之后后台加载满载..如果预负荷为2，则第2次第3次第5次第6次幻灯片将被预加载</td>
                                         </tr>
                                         <tr>
-                                            <td>showAfterLoad</td>
-                                            <td>boolean</td>
+                                            <td>秀后负荷</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Show Content once it is fully loaded</td>
+                                            <td>显示内容一旦完全加载</td>
                                         </tr>
                                         <tr>
                                             <td>selector</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>''</code></td>
-                                            <td>Custom selector property instead of just child. pass <code>this</code> to select same element ex : <code>.class</code> <code>#id</code></td>
+                                            <td>自定义选择属性，而不仅仅是孩子。 通过 <code>this</code>选择同一种元素的前 : <code>.class</code> <code>#id</code></td>
                                         </tr>
                                         <tr>
                                             <td>selectWithin</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>''</code></td>
-                                            <td>By default selectror element is taken from only inside the gallery element. Instead of that you can tell lightgallery to select element within a specific element. ex : <code>.class</code> <code>#id</code> <br /> <code>document.querySelector(this.s.selectWithin ).querySelectorAll(this.s.selector);</code> </td>
+                                            <td>默认选择器元件仅从像册元素内服用。相反，你可以告诉lightgallery到一个特定的元素中选择元素。恩: <code>.class</code> <code>#id</code> <br /> <code>document.querySelector(this.s.selectWithin ).querySelectorAll(this.s.selector);</code> </td>
                                         </tr>
                                         <tr>
                                             <td>nextHtml</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>''</code></td>
-                                            <td>Custom html for next control</td>
+                                            <td>自定义HTML明年控制</td>
                                         </tr>
                                         <tr>
                                             <td>prevHtml</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>''</code></td>
-                                            <td>Custom html for prev control</td>
+                                            <td>自定义HTML的上一个控制</td>
                                         </tr>
                                         <tr>
                                             <td>index</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>0</code></td>
-                                            <td>Allows to set which image/video should load initially</td>
+                                            <td>允许设置该图像/视频应首先加载</td>
                                         </tr>
                                         <tr>
-                                            <td>iframeMaxWidth</td>
-                                            <td>string</td>
+                                            <td>iframe的最大宽度</td>
+                                            <td>字符串</td>
                                             <td><code>'100%'</code></td>
-                                            <td>Set maximum width for iframe.</td>
+                                            <td>iframe的设定最大宽度.</td>
                                         </tr>
                                         <tr>
-                                            <td>download</td>
-                                            <td>boolean</td>
+                                            <td>下载</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable download button. By default download url will be taken from data-src/href attribute but it supports only for modern browsers. If you want you can provide another url for download via <code>data-download-url</code>. Pass <code>false</code> in <code>data-download-url</code> if you want to hide download button for the particular slide.</td>
+                                            <td>启用下载按钮。默认情况下下载网址将会从数据的src / href属性要采取，但它仅适用于现代浏览器支持。如果你愿意，你可以提供另一个URL下载通过<code>data-download-url</code>. 通过 <code>false</code>在 <code>data-download-url</code> 如果您想隐藏特定幻灯片的下载按钮.</td>
                                         </tr>
                                         <tr>
                                             <td>counter</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Whether to show total number of images and index number of currently displayed image.</td>
+                                            <td>是否显示当前显示的图像的图像和索引号的总数.</td>
                                         </tr>
                                         <tr>
-                                            <td>appendCounterTo</td>
-                                            <td>string</td>
+                                            <td>添加计数器</td>
+                                            <td>字符串</td>
                                             <td><code>'.lg-toolbar'</code></td>
-                                            <td>Where the counter should be appended</td>
+                                            <td>当计数器应被追加</td>
                                         </tr>
                                         <tr>
-                                            <td>swipeThreshold</td>
-                                            <td>number</td>
+                                            <td>刷卡门槛</td>
+                                            <td>数字</td>
                                             <td><code>50</code></td>
-                                            <td>By setting the swipeThreshold (in px) you can set how far the user must swipe for the next/prev image.</td>
+                                            <td>通过设置刷卡阈值（单位：像素），您可以设置用户必须多远刷卡下一个/上一张图片.</td>
                                         </tr>
                                         <tr>
-                                            <td>enableDrag</td>
-                                            <td>boolean</td>
+                                            <td>启用拖放</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enables desktop mouse drag support</td>
+                                            <td>启用桌面鼠标拖拽支持</td>
                                         </tr>
                                         <tr>
-                                            <td>enableTouch</td>
-                                            <td>boolean</td>
+                                            <td>使触摸</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enables touch support</td>
+                                            <td>启用触摸支持</td>
                                         </tr>
                                         <tr>
                                             <td>dynamic</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>LightGallery can be instantiated and launched programmatically by setting this option to <code>true</code> and populating <code>dynamicEl</code> option (see below) with the definitions of images.</td>
+                                            <td>LightGallery可以被实例化，并通过使用此选项以编程方式启动 <code>true</code> 和填充 <code>dynamicEl</code> 选项（见下文）与图像的定义.</td>
                                         </tr>
                                         <tr>
-                                            <td>dynamicEl</td>
+                                            <td>动力</td>
                                             <td>array</td>
                                             <td>[]</td>
-                                            <td>An array of objects (<code>src</code>, <code>iframe</code>, <code>subHtml</code>, <code>thumb</code>, <code>poster</code>, <code>responsive</code>, <code>srcset</code> <code>sizes</code>) representing gallery elements. <a href="examples.html#dynamicBlock">See example</a>.</td>
+                                            <td>对象的数组 (<code>src</code>, <code>iframe</code>, <code>subHtml</code>, <code>thumb</code>, <code>poster</code>, <code>responsive</code>, <code>srcset</code> <code>sizes</code>) 代表画廊元素. <a href="examples.html#dynamicBlock">看到的例子</a>.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-thumbnial">
-                                <a href="#lg-thumbnial">Thumbnial plugin</a>
+                                <a href="#lg-thumbnial">缩略图插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include thumbnials plugin (lg-thumbnail.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括您的文档使用下列选项中的缩略图插件（lg-thumbnail.js）.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>thumbnail</td>
-                                            <td>boolean</td>
+                                            <td>缩略图</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable thumbnails for the gallery</td>
+                                            <td>启用画廊缩略图</td>
                                         </tr>
                                         <tr>
-                                            <td>animateThumb</td>
-                                            <td>boolean</td>
+                                            <td>拇指动画</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable thumbnail animation.</td>
+                                            <td>启用缩略图动画.</td>
                                         </tr>
                                         <tr>
-                                            <td>currentPagerPosition </td>
-                                            <td>string</td>
+                                            <td>当前页位置 </td>
+                                            <td>字符串</td>
                                             <td><code>'middle'</code></td>
-                                            <td>Position of selected thumbnail. <code>'left'</code> or <code>'middle'</code> or <code>'right'</code></td>
+                                            <td>选定缩略图的位置. <code>'left'</code> 要么 <code>'middle'</code> 要么 <code>'right'</code></td>
                                         </tr>
                                         <tr>
-                                            <td>thumbWidth</td>
-                                            <td>number</td>
+                                            <td>拇指宽</td>
+                                            <td>数字</td>
                                             <td><code>100</code></td>
-                                            <td>Width of each thumbnails.</td>
+                                            <td>每个缩略图的宽度.</td>
                                         </tr>
                                         <tr>
-                                            <td>thumbContHeight</td>
-                                            <td>number</td>
+                                            <td>拇指续身高</td>
+                                            <td>数字</td>
                                             <td><code>100</code></td>
-                                            <td>Height of the thumbnail container including padding and border</td>
+                                            <td>缩略图容器的高度，包括填充和边界</td>
                                         </tr>
                                         <tr>
-                                            <td>thumbMargin</td>
-                                            <td>number</td>
+                                            <td>拇指边境</td>
+                                            <td>数字</td>
                                             <td><code>5</code></td>
-                                            <td>Spacing between each thumbnails</td>
+                                            <td>每个缩略图之间的间隔</td>
                                         </tr>
                                         <tr>
-                                            <td>exThumbImage</td>
-                                            <td>string or false</td>
+                                            <td>拇指图片</td>
+                                            <td>字符串或假</td>
                                             <td><code>false</code></td>
-                                            <td>If you want to use external image for thumbnail, add the path of that image inside "data-" attribute and set value of this option to the name of your custom attribute.<br><code> &lt;-- &lt;li data-exthumbimage="externalThumb.jpg" data-src="img/img1.jpg"&gt;&lt;/li--&gt;</code><br><code>// exThumbImage: 'data-exthumbimage';</code></td>
+                                            <td>如果你想使用外部图像的缩略图，添加图像的路径内 "data-"属性此选项，并设置值自定义属性的名称.<br><code> &lt;-- &lt;li data-exthumbimage="externalThumb.jpg" data-src="img/img1.jpg"&gt;&lt;/li--&gt;</code><br><code>// exThumbImage: 'data-exthumbimage';</code></td>
                                         </tr>
                                         <tr>
-                                            <td>toggleThumb</td>
-                                            <td>boolean</td>
+                                            <td>拨动拇指</td>
+                                            <td>布尔</td>
                                             <td>true</td>
-                                            <td>Whether to display thumbnail toggle button.</td>
+                                            <td>是否显示缩略图切换按钮.</td>
                                         </tr>
                                         <tr>
-                                            <td>pullCaptionUp</td>
-                                            <td>boolean</td>
+                                            <td>池字幕</td>
+                                            <td>布尔</td>
                                             <td>true</td>
-                                            <td>Pull captions above thumbnails.</td>
+                                            <td>上面拉字幕缩略图.</td>
                                         </tr>
                                         <tr>
-                                            <td>enableThumbDrag</td>
-                                            <td>boolean</td>
+                                            <td>使拇指拖动</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enables desktop mouse drag support for thumbnails.</td>
+                                            <td>启用缩略图桌面鼠标拖动支持.</td>
                                         </tr>
                                         <tr>
-                                            <td>enableThumbSwipe</td>
-                                            <td>boolean</td>
+                                            <td>使拇指刷卡</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enables thumbnail touch/swipe support for touch devices</td>
+                                            <td>启用触摸设备缩略图触摸/滑动的支持</td>
                                         </tr>
                                         <tr>
-                                            <td>swipeThreshold</td>
-                                            <td>number</td>
+                                            <td>刷卡门槛</td>
+                                            <td>数字</td>
                                             <td><code>50</code></td>
-                                            <td>By setting the swipeThreshold (in px) you can set how far the user must swipe for the next/prev slide.</td>
+                                            <td>通过设置刷卡阈值（单位：像素），您可以设置用户必须多远刷卡为下/上一张幻灯片.</td>
                                         </tr>
                                         <tr>
-                                            <td>loadYoutubeThumbnail</td>
-                                            <td>boolean</td>
+                                            <td>加载的Youtube缩略图</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>You can automatically load thumbnails for youtube videos from youtube by setting loadYoutubeThumbnail true</td>
+                                            <td>您可以通过设置负载的Youtube缩略图真正的自动加载从YouTube的YouTube的视频缩略图</td>
                                         </tr>
                                         <tr>
-                                            <td>youtubeThumbSize</td>
-                                            <td>number</td>
+                                            <td>YouTube的拇指大小</td>
+                                            <td>数字</td>
                                             <td><code>1</code></td>
-                                            <td>You can specify the thumbnail size by setting respective number. Here is the detailed <a href="../demos/videos.html#auto-thumb">demo</a></td>
+                                            <td>您可以通过设置相应号码指定缩略图大小。这里是详细 <a href="../demos/videos.html#auto-thumb">演示</a></td>
                                         </tr>
                                         <tr>
-                                            <td>loadVimeoThumbnail</td>
-                                            <td>boolean</td>
+                                            <td>加载Vimeo的缩略图</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>You can automatically load thumbnails for vimeo videos from vimeo by setting loadYoutubeThumbnail true.</td>
+                                            <td>您可以通过设置负载的Youtube缩略图真正的自动加载从VIMEO VIMEO视频的缩略图.</td>
                                         </tr>
                                         <tr>
-                                            <td>vimeoThumbSize</td>
-                                            <td>string</td>
+                                            <td>VIMEO缩略图大小</td>
+                                            <td>字符串</td>
                                             <td><code>'thumbnail_small'</code></td>
-                                            <td>Thumbnail size for vimeo videos: <code>'thumbnail_large'</code> or <code>'thumbnail_medium'</code> or <code>'thumbnail_small'</code> Here is the detailed <a href="../demos/videos.html#auto-thumb">demo</a></td>
+                                            <td>对于VIMEO视频缩略图大小: <code>'thumbnail_large'</code> 或<code>'thumbnail_medium'</code> 或 <code>'thumbnail_small'</code>这里是详细 <a href="../demos/videos.html#auto-thumb">演示</a></td>
                                         </tr>
                                         <tr>
-                                            <td>loadDailymotionThumbnail</td>
-                                            <td>boolean</td>
+                                            <td>加载位DailyMotion缩略图</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>You can automatically load thumbnails for dailymotion videos from dailymotion by setting loadYoutubeThumbnail true.</td>
+                                            <td>您可以通过设置负载的Youtube缩略图真正的自动加载从位DailyMotion位DailyMotion视频的缩略图.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>youtubeThumbSize values</th>
-                                            <th>size</th>
-                                            <th>description</th>
+                                            <th>YouTube的拇指大小的值</th>
+                                            <th>尺寸</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>0</code></td>
                                             <td>480x360 pixels</td>
-                                            <td>Player Background Thumbnail</td>
+                                            <td>播放器背景缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>1</code></td>
                                             <td>120x90 pixels</td>
-                                            <td>Start Thumbnail</td>
+                                            <td>启动缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>2</code></td>
                                             <td>120x90 pixels</td>
-                                            <td>Middle Thumbnail</td>
+                                            <td>中东缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>3</code></td>
                                             <td>120x90 pixels</td>
-                                            <td>End Thumbnail</td>
+                                            <td>最终缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>hqdefault</code></td>
                                             <td>480x360 pixels</td>
-                                            <td>High Quality Thumbnail</td>
+                                            <td>高品质的缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>mqdefault</code></td>
                                             <td>320x180 pixels</td>
-                                            <td>Medium Quality Thumbnail</td>
+                                            <td>中等质量缩略图</td>
                                         </tr>
                                         <tr>
-                                            <td><code>default</code></td>
+                                            <td><code>默认</code></td>
                                             <td>120x90 pixels</td>
-                                            <td>Normal Quality Thumbnail </td>
+                                            <td>普通质量的缩略图 </td>
                                         </tr>
                                         <tr>
                                             <td><code>sddefault</code></td>
                                             <td>640x480 pixels</td>
-                                            <td>Standard Definition Thumbnail</td>
+                                            <td>标准清晰度缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>maxresdefault</code></td>
                                             <td>1920x1080 pixels</td>
-                                            <td>Maximum Resolution Thumbnail</td>
+                                            <td>最大分辨率缩略图</td>
                                         </tr>
                                     </tbody>
                                 </table>
                                 <div class="bs-callout bs-callout-warning mrb20">
-                                    <p><code>sddefault</code> and <code>maxresdefault</code> are optional. which may or may not exist.</p>
+                                    <p><code>sddefault</code> 和 <code>maxresdefault</code> 是可选的。其可能或可能不存在.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>loadVimeoThumbnail values</th>
-                                            <th>size</th>
-                                            <th>description</th>
+                                            <th>加载Vimeo的缩略图值</th>
+                                            <th>尺寸</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>thumbnail_small</code></td>
                                             <td>100x75 pixels</td>
-                                            <td>Samll size Thumbnail</td>
+                                            <td>体积小缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>thumbnail_medium</code></td>
                                             <td>200x150 pixels</td>
-                                            <td>Medium size Thumbnail</td>
+                                            <td>中等大小的缩略图</td>
                                         </tr>
                                         <tr>
                                             <td><code>thumbnail_large</code></td>
                                             <td>640x360 pixels</td>
-                                            <td>Large size Thumbnail</td>
+                                            <td>大尺寸的缩略图</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-autoplay">
-                                <a href="#lg-autoplay">Autoplay plugin</a>
+                                <a href="#lg-autoplay">自动播放插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include autoplay plugin (lg-autoplay.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括自动播放插件（LG-autoplay.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>autoplay</td>
-                                            <td>boolean</td>
+                                            <td>自动播放</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable gallery autoplay</td>
+                                            <td>启用自动播放画廊</td>
                                         </tr>
                                         <tr>
                                             <td>pause</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>5000</code></td>
-                                            <td>The time (in ms) between each auto transition.</td>
+                                            <td>每个自动转换之间的时间（毫秒）.</td>
                                         </tr>
                                         <tr>
                                             <td>progressBar </td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable autoplay progress bar</td>
+                                            <td>启用自动播放进度条</td>
                                         </tr>
                                         <tr>
                                             <td>fourceAutoplay</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>If <code>false</code> autoplay will be stopped after first user action</td>
+                                            <td>如果<code>false</code> 自动播放将第一用户动作之后停止</td>
                                         </tr>
                                         <tr>
                                             <td>autoplayControls</td>
                                             <td>false</td>
                                             <td><code>true</code></td>
-                                            <td>Show/hide autoplay controls.</td>
+                                            <td>显示/隐藏自动播放控制.</td>
                                         </tr>
                                         <tr>
                                             <td>appendAutoplayControlsTo</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>'.lg-toolbar'</code></td>
-                                            <td>Where the autoply controls should be appended.</td>
+                                            <td>当自动播放控件应该被追加.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-video">
-                                <a href="#lg-video">Video plugin</a>
+                                <a href="#lg-video">视频插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include video plugin (lg-video.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括视频插件 (lg-video.js) 您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>videoMaxWidth</td>
-                                            <td>string</td>
+                                            <td>视频最大宽度</td>
+                                            <td>字符串</td>
                                             <td><code>'855px'</code></td>
-                                            <td>Set limit for video maximal width.</td>
+                                            <td>视频最大宽度设定上限.</td>
                                         </tr>
                                         <tr>
-                                            <td>youtubePlayerParams </td>
-                                            <td>object</td>
+                                            <td>YouTube播放器参数 </td>
+                                            <td>对象</td>
                                             <td><code>{}</code></td>
-                                            <td>Change youtube player parameters. <br>link : https://developers.google.com/youtube/player_parameters <br>
+                                            <td>YouTube播放器参数变化. <br>链接 : https://developers.google.com/youtube/player_parameters <br>
                                                 ex: <code> youtubePlayerParams:  {
                                                     modestbranding: 1, 
                                                     showinfo: 0, 
@@ -627,10 +615,10 @@ lightGallery(document.getElementById('lightgallery'), {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>vimeoPlayerParams</td>
-                                            <td>object</td>
+                                            <td>Vimeo播放器参数</td>
+                                            <td>对象</td>
                                             <td><code>{}</code></td>
-                                            <td>Change vimeo player parameters. <br />link https://developer.vimeo.com/player/embedding#universal-parameters <br />
+                                            <td>更改VIMEO播放器参数. <br />链接 https://developer.vimeo.com/player/embedding#universal-parameters <br />
                                             ex: <code>
                                             vimeoPlayerParams: {
                                                 byline : 0,
@@ -640,31 +628,31 @@ lightGallery(document.getElementById('lightgallery'), {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>dailymotionPlayerParams</td>
-                                            <td>object</td>
+                                            <td>优酷播放器参数</td>
+                                            <td>对象</td>
                                             <td><code>{}</code></td>
-                                            <td>Change dailymotion player parameters. <br />link https://developer.dailymotion.com/player#player-parameters<br />
+                                            <td>更改位DailyMotion播放器参数. <br />链接 https://developer.dailymotion.com/player#player-parameters<br />
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>vkPlayerParams</td>
-                                            <td>object</td>
+                                            <td>VK播放器参数</td>
+                                            <td>对象</td>
                                             <td><code>{}</code></td>
-                                            <td>Change vk player parameters.
+                                            <td>更改VK播放器参数。
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>videojs</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>false</code></td>
-                                            <td>Enbale videojs custom video player
+                                            <td>启用视频JS定制的视频播放器
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>videojsOptions</td>
-                                            <td>object</td>
+                                            <td>videojs选项</td>
+                                            <td>对象</td>
                                             <td><code>{}</code></td>
-                                            <td>Videojs player options
+                                            <td>Videojs播放器选项
                                             </td>
                                         </tr>
                                     </tbody>
@@ -685,207 +673,206 @@ lightGallery(document.getElementById('lightgallery'), {
                                     </div>
                                 </div>
                                 <h3 class="anchor-title mrb15" id="lg-fullscreen">
-                                <a href="#lg-fullscreen">Fullscreen plugin</a>
+                                <a href="#lg-fullscreen">全屏插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include fullscreen plugin (lg-fullscreen.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括全屏插件（lg-fullscreen.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>说明</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>fullScreen</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable/Disable fullscreen mode</td>
+                                            <td>启用/禁用全屏模式</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-pager">
-                                <a href="#lg-pager">Pager plugin</a>
+                                <a href="#lg-pager">分页插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include pager plugin (lg-pager.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括分页插件（lg-pager.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>说明</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>pager</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable/Disable pager</td>
+                                            <td>启用/禁用翻页(呼叫器)</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-zoom">
-                                <a href="#lg-zoom">Zoom plugin</a>
+                                <a href="#lg-zoom">变焦插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include zoom plugin (lg-zoom.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括变焦插件（lg-zoom.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>说明</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>zoom</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable/Disable zoom option</td>
+                                            <td>启用/禁用缩放选项</td>
                                         </tr>
                                         <tr>
                                             <td>scale</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>1</code></td>
-                                            <td>Value of zoom should be incremented/decremented</td>
+                                            <td>变焦值应递增/递减</td>
                                         </tr>
                                         <tr>
-                                            <td>enableZoomAfter</td>
+                                            <td>使放大后</td>
                                             <td>number in ms</td>
                                             <td><code>50</code></td>
-                                            <td>Some css styles will be added to the images if zoom is enabled. So it might conflict if you add some custom styles to the images such as the initial transition while opening the gallery. So you can delay adding zoom related styles to the images by changing the value of <code>enableZoomAfter</code>.</td>
+                                            <td>如果启动变焦一些CSS样式将被添加到该图像。所以，如果你添加一些自定义样式图像，如最初的过渡，同时打开画廊它可能会发生冲突。所以，你可以推迟通过改变增值变焦有关样式的图像<code>enableZoomAfter</code>.</td>
                                         </tr>
                                         <tr>
                                             <td>actualSize</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable actual pixel icon.</td>
+                                            <td>启用实际像素图标.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-hash">
-                                <a href="#lg-hash">Hash plugin</a>
+                                <a href="#lg-hash">哈希插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include hash plugin (lg-hash.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括散列插件（lg-hash.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
-                                        </tr>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>说明</th>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>hash</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable/Disable hash plugin</td>
+                                            <td>启用/禁用哈希插件</td>
                                         </tr>
                                         <tr>
                                             <td>galleryId</td>
-                                            <td>number</td>
+                                            <td>数字</td>
                                             <td><code>1</code></td>
-                                            <td>Unique id for each gallery. It is mandatory when you use hash plugin for multiple galleries on the same page.</td>
+                                            <td>唯一的ID为每个画廊。当您使用多个画廊哈希插件在同一页上它是强制性的.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </section>
                             <section class="doc mrb50">
                                 <h3 class="anchor-title mrb15" id="lg-share">
-                                <a href="#lg-share">Share plugin</a>
+                                <a href="#lg-share">分享插件</a>
                                 </h3>
                                 <div class="bs-callout bs-callout-danger mrb20">
-                                    <h4>Plugin dependency</h4>
-                                    <p>You need to include share plugin (lg-share.js) in your document to use the following options.</p>
+                                    <h4>插件的依赖</h4>
+                                    <p>您需要包括共享插件（LG-share.js）您的文档使用下面的选项.</p>
                                 </div>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>type</th>
-                                            <th>default</th>
-                                            <th>description</th>
+                                            <th>名称</th>
+                                            <th>类型</th>
+                                            <th>默认</th>
+                                            <th>说明</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>share</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable/Disable share plugin</td>
+                                            <td>启用/禁用分享插件</td>
                                         </tr>
                                         <tr>
                                             <td>facebook</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable Facebook share.</td>
+                                            <td>启用facebook共享.</td>
                                         </tr>
                                         <tr>
                                             <td>facebookDropdownText</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>Facebook</code></td>
-                                            <td>Facebok dropdown text.</td>
+                                            <td>Facebok下拉文本.</td>
                                         </tr>
                                         <tr>
                                             <td>twitter</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable twitter share.</td>
+                                            <td>启用Twitter共享.</td>
                                         </tr>
                                         <tr>
                                             <td>twitterDropdownText</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>Twitter</code></td>
-                                            <td>Twitter dropdown text</td>
+                                            <td>Twitter的下拉文本</td>
                                         </tr>
                                         <tr>
                                             <td>googlePlus</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable googlePlus share.</td>
+                                            <td>启用谷歌加分享.</td>
                                         </tr>
                                         <tr>
                                             <td>googlePlusDropdownText</td>
-                                            <td>string</td>
+                                            <td>字符串</td>
                                             <td><code>GooglePlus</code></td>
-                                            <td>GooglePlus dropdown text</td>
+                                            <td>谷歌加下拉文本</td>
                                         </tr>
                                         <tr>
                                             <td>pinterest</td>
-                                            <td>boolean</td>
+                                            <td>布尔</td>
                                             <td><code>true</code></td>
-                                            <td>Enable pinterest share.</td>
+                                            <td>使Pinterest分享.</td>
                                         </tr>
                                         <tr>
-                                            <td>pinterestDropdownText</td>
-                                            <td>string</td>
+                                            <td>pinterest下拉文本</td>
+                                            <td>字符串</td>
                                             <td><code>Pinterest</code></td>
-                                            <td>Pinterest dropdown text</td>
+                                            <td>Pinterest的下拉文本</td>
                                         </tr>                                        
                                     </tbody>
                                 </table>
@@ -896,12 +883,12 @@ lightGallery(document.getElementById('lightgallery'), {
                         <div class="docs-inner">
                             <section class="doc" id="events">
                                 <h2 class="anchor-title mrb30" id="events">
-                                    <a href="#events">Events</a>
+                                    <a href="#events">事件</a>
                                     <span class="border"></span>
                                 </h2>
                                 <div class="code-demo mrb20">
                                     <h3 class="anchor-title mrb15" id="how-to-use-events">
-                                    <a href="#how-to-use-events">How to use lightgallery custom events</a>
+                                    <a href="#how-to-use-events">如何使用lightgallery自定义事件</a>
                                     </h3>
                                     <div class="sample-code html">
 <pre class="prettyprint linenums lang-js">
@@ -913,7 +900,7 @@ lg.addEventListener('lgOnBeforeOpen', function(e){
 }, false);
 
 // custom event with extra parameters 
-// event.detail.index - index of the slide
+// event.detail.index -滑动指数
 // event.detail.fromTouch - true if slide function called via touch event or mouse drag
 // event.detail.fromThumb - true if slide function called via thumbnail click
 lg.addEventListener('lgOnBeforeSlide', function(event){
@@ -929,108 +916,108 @@ lightGallery(lg);
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Event Type</th>
-                                            <th>parameters</th>
-                                            <th>Description</th>
+                                            <th>事件类型</th>
+                                            <th>参数</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>onBeforeOpen.lg</td>
                                             <td></td>
-                                            <td>Fired immediately before the start opening.</td>
+                                            <td>立即启动开幕前被解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onAfterOpen.lg</td>
                                             <td></td>
-                                            <td>Fired immediately after opening the gallery.</td>
+                                            <td>打开库后，立即解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onAferAppendSlide.lg</td>
                                             <td>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
+                                                <p><code>event.detail.index</code> -滑动指数</p>
                                             </td>
-                                            <td>This event is fired when the slide content has been inserted into its slide container.</td>
+                                            <td>当幻灯片内容已经被插入跌势容器此事件被触发.</td>
                                         </tr>
                                         <tr>
                                             <td>onAfterAppendSubHtml.lg</td>
                                             <td>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
+                                                <p><code>event.detail.index</code> -滑动指数</p>
                                             </td>
-                                            <td>This event is fired when the sub-html content (ex : title/ description) has been appended into the slide.</td>
+                                            <td>（：标题/描述前）已追加到幻灯片当子HTML内容该事件被触发.</td>
                                         </tr>
                                         <tr>
                                             <td>onSlideItemLoad.lg</td>
                                             <td>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
+                                                <p><code>event.detail.index</code> -滑动指数</p>
                                             </td>
-                                            <td>This event is fired once the image inside the slide has been completely loaded .</td>
+                                            <td>一旦幻灯片里面的形象已经完全加载这个事件 .</td>
                                         </tr>
                                         <tr>
                                             <td>onBeforeSlide.lg</td>
                                             <td>
-                                                <p><code>event.detail.prevIndex</code> - Index of the previous slide</p>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
-                                                <p><code>event.detail.fromTouch</code> - true if slide function called via touch event or mouse drag</p>
-                                                <p><code>event.detail.fromThumb</code> - true if slide function called via thumbnail click</p>
+                                                <p><code>event.detail.prevIndex</code> -上一张幻灯片指数</p>
+                                                <p><code>event.detail.index</code> - 滑动的索引</p>
+                                                <p><code>event.detail.fromTouch</code> - 如果真的通过触摸事件呼吁鼠标拖动滑动功能</p>
+                                                <p><code>event.detail.fromThumb</code> - 真如果通过点击缩略图叫滑动功能</p>
                                             </td>
-                                            <td>fired immediately before each slide transition.</td>
+                                            <td>立即每张幻灯片转换之前解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onAfterSlide.lg</td>
                                             <td>
-                                                <p><code>event.detail.prevIndex</code> - Index of the previous slide</p>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
-                                                <p><code>event.detail.fromTouch</code> - true if slide function called via touch event or mouse drag</p>
-                                                <p><code>fromThumb</code> - true if slide function called via thumbnail click</p>
+                                                <p><code>event.detail.prevIndex</code> - 上一张幻灯片指数</p>
+                                                <p><code>event.detail.index</code> -滑动指数</p>
+                                                <p><code>event.detail.fromTouch</code> - 如果真的通过触摸事件呼吁鼠标拖动滑动功能</p>
+                                                <p><code>fromThumb</code> -真如果通过点击缩略图叫滑动功能</p>
                                             </td>
-                                            <td>fired immediately after each slide transition.</td>
+                                            <td>每张幻灯片过渡后，立即解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onBeforePrevSlide.lg</td>
                                             <td>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
-                                                <p><code>event.detail.fromTouch</code> - true if slide function called via touch event or mouse drag</p>
+                                                <p><code>event.detail.index</code> -滑动指数</p>
+                                                <p><code>event.detail.fromTouch</code> -如果真的通过触摸事件呼吁鼠标拖动滑动功能</p>
                                             </td>
-                                            <td>fired immediately before each "prev" slide transition</td>
+                                            <td>立即每个“上一页”幻灯片切换之前触发</td>
                                         </tr>
                                         <tr>
                                             <td>onBeforeNextSlide.lg</td>
                                             <td>
-                                                <p><code>event.detail.index</code> - Index of the slide</p>
-                                                <p><code>event.detail.fromTouch</code> - true if slide function called via touch event or mouse drag</p>
+                                                <p><code>event.detail.index</code> -滑动的索引</p>
+                                                <p><code>event.detail.fromTouch</code> - 如果真的通过触摸事件呼吁鼠标拖动滑动功能</p>
                                             </td>
-                                            <td>fired immediately before each "next" slide transition</td>
+                                            <td>立即每个“下一步”幻灯片切换之前触发</td>
                                         </tr>
                                         <tr>
                                             <td>onDragstart.lg</td>
                                             <td></td>
-                                            <td>Fired when the user starts to drag the slide</td>
+                                            <td>当用户开始拖动滑块解雇</td>
                                         </tr>
                                         <tr>
                                             <td>onDragmove.lg</td>
                                             <td></td>
-                                            <td>Fired periodically during the drag operation.</td>
+                                            <td>拖动操作期间定期发射.</td>
                                         </tr>
                                         <tr>
                                             <td>onDragend.lg</td>
                                             <td></td>
-                                            <td>Fired when the user has finished the drag operation</td>
+                                            <td>当用户已经完成了拖动操作发射</td>
                                         </tr>
                                         <tr>
                                             <td>onSlideClick.lg</td>
                                             <td></td>
-                                            <td>Fired when the user clicks on the slide and does not crossed the  swipeThreshold value.</td>
+                                            <td>当用户点击幻灯片上，不越过刷卡的阈值被解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onBeforeClose.lg</td>
                                             <td></td>
-                                            <td>Fired immediately before the start of the close process.</td>
+                                            <td>立即关闭过程开始前被解雇.</td>
                                         </tr>
                                         <tr>
                                             <td>onCloseAfter.lg</td>
                                             <td></td>
-                                            <td>Fired immediately once lightgallery is closed.</td>
+                                            <td>一旦lightgallery被关闭马上还以颜色.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1041,12 +1028,12 @@ lightGallery(lg);
                         <div class="docs-inner">
                             <section class="doc" id="methods">
                                 <h2 class="anchor-title mrb30" id="methods">
-                                    <a href="#methods">Methods</a>
+                                    <a href="#methods">方法</a>
                                     <span class="border"></span>
                                 </h2>
                                 <div class="code-demo mrb20">
                                     <h3 class="anchor-title mrb15" id="how-to-use-methods">
-                                    <a href="#how-to-use-methods">How to use methods</a>
+                                    <a href="#how-to-use-methods">如何使用方法</a>
                                     </h3>
                                     <div class="sample-code html">
 <pre class="prettyprint linenums lang-js">
@@ -1065,31 +1052,31 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Parameters</th>
-                                            <th>Description</th>
+                                            <th>名称</th>
+                                            <th>参数</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>slide()</td>
-                                            <td><code>index</code> - index of the slide. starts from 0</td>
-                                            <td>Goto specific slide.</td>
+                                            <td><code>index</code> - 滑动的索引。从开始 0</td>
+                                            <td>转到特定的幻灯片。</td>
                                         </tr>
                                         <tr>
                                             <td>goToNextSlide()</td>
                                             <td></td>
-                                            <td>Go to next slide.</td>
+                                            <td>转到下一张幻灯片.</td>
                                         </tr>
                                         <tr>
                                             <td>goToPrevSlide()</td>
                                             <td></td>
-                                            <td>Go to previous slide.</td>
+                                            <td>转到上一张幻灯片.</td>
                                         </tr>
                                         <tr>
                                             <td>destroy()</td>
-                                            <td><code>true</code> - If you pass true as a parameter destroy method will destroy the gallery completely. If parameter is undefined or false destroy will only close the gallery and plugins instance remains with the element.</td>
-                                            <td>close or destroy the gallery</td>
+                                            <td><code>true</code> -如果您传递true作为参数销毁方法将彻底摧毁画廊。如果参数未定义或假的破坏只会关闭库和插件实例保持与元素.</td>
+                                            <td>关闭或破坏图库</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1100,7 +1087,7 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                         <div class="docs-inner">
                             <section class="doc" id="attributes">
                                 <h2 class="anchor-title mrb30">
-                                    <a href="#attributes">Attributes</a>
+                                    <a href="#attributes">属性</a>
                                     <span class="border"></span>
                                 </h2>
                             </section>
@@ -1108,59 +1095,59 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Description</th>
-                                        </tr>
+                                             <th>名称</th>
+                                            <th>描述</th>
+                                       </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>data-src</td>
-                                            <td>the large version of your image/video</td>
+                                            <td>大版本的图像/视频</td>
                                         </tr>
                                         <tr>
                                             <td>href</td>
-                                            <td>the large version of your image/video</td>
+                                            <td>大版本的图像/视频</td>
                                         </tr>
                                         <tr>
                                             <td>data-sub-html</td>
-                                            <td>id or class name of an object(div) which contain your sub html. </td>
+                                            <td>一个对象（DIV），它包含您的子HTML的ID或类名. </td>
                                         </tr>
                                         <tr>
                                             <td>data-sub-html-url</td>
-                                            <td>url of the file which contain your sub html.</td>
+                                            <td>其中包含您的子HTML文件的网址.</td>
                                         </tr>
                                         <tr>
                                             <td>data-html</td>
-                                            <td>id or class name of an object(div) which contain your html. used for inserting html5 videos</td>
+                                            <td>一个对象（DIV）包含你的HTML的ID或类名。用于插入HTML5视频</td>
                                         </tr>
                                         <tr>
                                             <td>data-poster</td>
-                                            <td>Poster image for your video</td>
+                                            <td>为您的视频海报图像</td>
                                         </tr>
                                         <tr>
                                             <td>data-responsive</td>
-                                            <td>List of images and viewport's max width separated by comma. 
-                                            <br />Ex: <code>img/1-375.jpg 375, img/1-480.jpg 480, img/1-757.jpg 757</code>. You can check the demo <a href="../demos/responsive.html">here</a></td>
+                                            <td>图像和视口最大宽度名单由逗号分隔. 
+                                            <br />Ex: <code>img/1-375.jpg 375, img/1-480.jpg 480, img/1-757.jpg 757</code>.你可以检查演示<a href="../demos/responsive.html">这里</a></td>
                                         </tr>
                                         <tr>
                                             <td>data-srcset</td>
-                                            <td>srcset values</td>
+                                            <td>srcset值</td>
                                         </tr>
                                         <tr>
                                             <td>data-sizes</td>
-                                            <td>srcset sizes</td>
+                                            <td>srcset尺寸</td>
                                         </tr>
                                         <tr>
                                             <td>data-iframe</td>
-                                            <td>Set true is you want to open your url in an iframe</td>
+                                            <td>如果你想在一个iframe来打开URL集真</td>
                                         </tr>
                                         <tr>
                                             <td>data-download-url</td>
-                                            <td>Download url for your image/video. Pass <code>false</code> if you want to hide the download button.</td>
+                                            <td>下载网址为您的图像/视频。 通过 <code>false</code> 如果你想隐藏的下载按钮.</td>
                                         </tr>
                                         <tr>
                                             <td>data-width</td>
-                                            <td>Actual size of the image in px. used in zoom plugin to see the actual size of the image when you doubleclick on the image.</td>
+                                            <td>在像素图像的实际大小。在放大的插件用于查看图像的实际尺寸时双击在图像上.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1171,7 +1158,7 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                         <div class="docs-inner">
                             <section class="doc" id="dynamic">
                                 <h2 class="anchor-title mrb30">
-                                    <a href="#dynamic">Dynamic variables</a>
+                                    <a href="#dynamic">动态变量</a>
                                     <span class="border"></span>
                                 </h2>
                             </section>
@@ -1179,55 +1166,55 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Description</th>
+                                            <th>名称</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>src</td>
-                                            <td>the large version of your image/video</td>
+                                            <td>大版本的图像/视频</td>
                                         </tr>
                                         <tr>
                                             <td>href</td>
-                                            <td>the large version of your image/video</td>
+                                            <td>大版本的图像/视频</td>
                                         </tr>
                                         <tr>
                                             <td>subHtml</td>
-                                            <td>id or class name of an object(div) which contain your sub html. </td>
+                                            <td>一个对象（DIV），它包含您的子HTML的ID或类名. </td>
                                         </tr>
                                         <tr>
                                             <td>html</td>
-                                            <td>id or class name of an object(div) which contain your html. used for inserting html5 videos</td>
+                                            <td>一个对象（DIV）包含你的HTML的ID或类名。用于插入HTML5视频</td>
                                         </tr>
                                         <tr>
                                             <td>poster</td>
-                                            <td>Poster image for your video</td>
+                                            <td>为您的视频海报图像</td>
                                         </tr>
                                         <tr>
-                                            <td>responsive</td>
-                                            <td>List of images and viewport's max width separated by comma. 
+                                            <td>响应</td>
+                                            <td>图像和视口最大宽度用逗号隔开的列表。
                                             <br />Ex: <code>img/1-375.jpg 375, img/1-480.jpg 480, img/1-757.jpg 757</code></td>
                                         </tr>
                                         <tr>
                                             <td>srcset</td>
-                                            <td>srcset values</td>
+                                            <td>srcset值</td>
                                         </tr>
                                         <tr>
-                                            <td>sizes</td>
-                                            <td>srcset sizes</td>
+                                            <td>尺寸</td>
+                                            <td>srcset尺寸</td>
                                         </tr>
                                         <tr>
                                             <td>iframe</td>
-                                            <td>Set true is you want to open your like in an iframe</td>
+                                            <td>如果你想在一个iframe打开你喜欢设置为true</td>
                                         </tr>
                                         <tr>
                                             <td>downloadUrl</td>
-                                            <td>Download url for your image/video. Pass <code>false</code> if you want to hide the download button.</td>
+                                            <td>下载网址为您的图像/视频。 通过 <code>false</code> 如果你想隐藏的下载按钮.</td>
                                         </tr>
                                         <tr>
                                             <td>width</td>
-                                            <td>Actual size of the image in px. used in zoom plugin to see the actual size of the image when you doubleclick on the image.</td>
+                                            <td>在像素图像的实际大小。在放大的插件用于查看图像的实际尺寸时双击在图像上.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1238,7 +1225,7 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                         <div class="docs-inner">
                             <section class="doc" id="sass">
                                 <h2 class="anchor-title mrb30">
-                                    <a href="#sass">Sass variables</a>
+                                    <a href="#sass">萨斯变量</a>
                                     <span class="border"></span>
                                 </h2>
                             </section>
@@ -1246,169 +1233,170 @@ window.lgData[el.getAttribute('lg-uid')].slide(2);
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>value</th>
-                                            <th>Description</th>
+                                              
+                                            <th>名称</th>
+                                            <th>值</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>$backdrop-opacity</code></td>
                                             <td><code>1</code></td>
-                                            <td>Gallery backdrop opacity</td>
+                                            <td>画廊背景不透明</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-toolbar-bg</code></td>
                                             <td><code>rgba(0, 0, 0, 0.45)</code></td>
-                                            <td>Toolbar background color</td>
+                                            <td>工具栏背景颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-border-radius-base</code></td>
                                             <td><code>2px</code></td>
-                                            <td>Base border radius for the gallery elements</td>
+                                            <td>为画廊元素基础边框半径</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-theme-highlight</code></td>
                                             <td><code>rgb(169, 7, 7)</code></td>
-                                            <td>Gallery highlight areas like progressbar active bg, thumbnails border.. </td>
+                                            <td>画廊的亮点领域，如进度条积极BG，缩略图边界.. </td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-icon-bg</code></td>
                                             <td><code>rgba(0, 0, 0, 0.45)</code></td>
-                                            <td>Gallery icons background color</td>
+                                            <td>画廊的图标背景颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-icon-color</code></td>
                                             <td><code>#999</code></td>
-                                            <td>Gallery icons color</td>
+                                            <td>画廊的图标颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-counter-color</code></td>
                                             <td><code>#e6e6e6</code></td>
-                                            <td>Gallery counter color</td>
+                                            <td>图库反色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-counter-font-size</code></td>
                                             <td><code>16px</code></td>
-                                            <td>Gallery counter font size</td>
+                                            <td>画廊专柜字号</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-next-prev-bg</code></td>
                                             <td><code>$lg-icon-bg</code></td>
-                                            <td>Next prev controls background color</td>
+                                            <td>下一页上一页控制背景颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-next-prev-color</code></td>
                                             <td><code>$lg-icon-color</code></td>
-                                            <td>Next prev controls icon color</td>
+                                            <td>下一页上一页的控件图标的颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-next-prev-hover-color</code></td>
                                             <td><code>$lg-icon-hover-color</code></td>
-                                            <td>Next prev controls icon color on hover</td>
+                                            <td>悬停下一页上一页控制图标的颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-progress-bar-bg</code></td>
                                             <td><code>#333</code></td>
-                                            <td>Progress bar background color</td>
+                                            <td>进度条的背景颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-progress-bar-active-bg</code></td>
                                             <td><code>$lg-theme-highlight</code></td>
-                                            <td>Progress bar highlight color</td>
+                                            <td>进度条高亮颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-progress-bar-height</code></td>
                                             <td><code>5px</code></td>
-                                            <td>Height of the progress bar</td>
+                                            <td>进度条的高度</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zoom-transition-duration</code></td>
                                             <td><code>0.3s</code></td>
-                                            <td>Image zoom animation duration.. </td>
+                                            <td>图片缩放动画时长.. </td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-sub-html-bg</code></td>
                                             <td><code>rgba(0, 0, 0, 0.45)</code></td>
-                                            <td>Sub html container background color</td>
+                                            <td>子HTML容器背景色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-sub-html-color</code></td>
                                             <td><code>#EEE</code></td>
-                                            <td>Sub html color</td>
+                                            <td>子HTML颜色</td>
                                         </tr>
                                         
                                         <tr>
                                             <td><code>$lg-thumb-toggle-bg</code></td>
                                             <td><code>#0D0A0A</code></td>
-                                            <td>Thumbnail icon toggle icon background color</td>
+                                            <td>缩略图图标切换图标背景颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-thumb-toggle-color</code></td>
                                             <td><code>$lg-icon-color</code></td>
-                                            <td>Thumbnail icon toggle icon color</td>
+                                            <td>缩略图图标切换图标颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-thumb-toggle-hover-color</code></td>
                                             <td><code>$lg-icon-hover-color</code></td>
-                                            <td>Thumbnail icon toggle icon color on hover</td>
+                                            <td>悬停缩略图图标切换图标颜色</td>
                                         </tr>
                                         <tr>
                                             <td><code>$lg-thumb-bg</code></td>
                                             <td><code>#0D0A0A</code></td>
-                                            <td>Thumbnail container background color</td>
+                                            <td>缩略图容器背景色</td>
                                         </tr>
 
 
                                         <tr>
                                             <td><code>$zindex-outer</code></td>
                                             <td><code>1050</code></td>
-                                            <td>Gallery outer div z-index</td>
+                                            <td>画廊外的div的z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-progressbar</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery autoplay progress bar z-index</td>
+                                            <td>图库自动播放进度条 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-controls</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery controls z-index</td>
+                                            <td>图库控制 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-toolbar</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery toolbar z-index</td>
+                                            <td>图库工具栏 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-subhtml</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery sub html container z-index</td>
+                                            <td>图库子HTML容器 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-thumbnail</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery thumbnail container z-index</td>
+                                            <td>图库缩略图容器 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-pager</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Gallery pager z-index</td>
+                                            <td>库页 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-playbutton</code></td>
                                             <td><code>1080</code></td>
-                                            <td>Video play button z-index</td>
+                                            <td>视频播放按钮 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-item</code></td>
                                             <td><code>1060</code></td>
-                                            <td>Gallery slide item z-index</td>
+                                            <td>库幻灯片项目 z-index</td>
                                         </tr>
                                         <tr>
                                             <td><code>$zindex-backdrop</code></td>
                                             <td><code>1040</code></td>
-                                            <td>Gallery backdrop z-index</td>
+                                            <td>画廊背景 z-index</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1435,46 +1423,46 @@ data-ad-slot="7879883012"></ins>
                     <nav class="side-nav" id="right-navbar" data-spy="affix" data-offset-top="60" data-offset-bottom="0">
                         <ul class="nav bs-docs-sidenav">
                             <li>
-                                <a href="../docs/#main-features">Main features</a>
+                                <a href="../docs/index.html#main-features">主要特点</a>
                             </li>
                             <li>
-                                <a href="../docs/#installation">Installation</a>
+                                <a href="../docs/index.html#installation">安装</a>
                             </li>
                             <li>
-                                <a href="#passing-options">Options</a>
+                                <a href="#passing-options">选项</a>
                                 <ul class="nav">
-                                    <li><a href="#passing-options">Passing options</a></li>
-                                    <li><a href="#lightgallery-core">lightgallery core</a></li>
-                                    <li><a href="#lg-thumbnial">Thumbnails</a></li>
-                                    <li><a href="#lg-autoplay">Autoplay</a></li>
-                                    <li><a href="#lg-video">Video</a></li>
-                                    <li><a href="#lg-fullscreen">Fullscreen</a></li>
-                                    <li><a href="#lg-pager">Pager</a></li>
-                                    <li><a href="#lg-zoom">Zoom</a></li>
-                                    <li><a href="#lg-hash">Hash</a></li>
-                                    <li><a href="#lg-share">Share</a></li>
+                                    <li><a href="#passing-options">通过选项</a></li>
+                                 <LI><a href="#lightgallery-core"> lightgallery核心</A> </li>
+                                    <LI><a href="#lg-thumbnial">缩略图</A> </li>
+                                    <LI><a href="#lg-autoplay">自动播放</A> </li>
+                                    <LI><a href="#lg-video">视频</A> </li>
+                                    <LI><a href="#lg-fullscreen">全屏</A> </li>
+                                    <LI><a href="#lg-pager">寻呼机</A> </li>
+                                    <LI><a href="#lg-zoom">放大</A> </li>
+                                    <LI><a href="#lg-hash">哈希</A> </li>
+                                    <LI><a href="#lg-share">分享</A> </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#events">Events</a>
+                         <LI>
+                                <a href="#events">活动</A>
                             </li>
-                            <li>
-                                <a href="#methods">Methods</a>
+                            <LI>
+                                <a href="#methods">方法</A>
                             </li>
-                            <li>
-                                <a href="#attributes">Data-attributes</a>
+                            <LI>
+                                <a href="#attributes">数据属性</A>
                             </li>
-                            <li>
-                                <a href="#dynamic">Dynamic variables </a>
+                            <LI>
+                                <a href="#dynamic">动态变量</a>的
                             </li>
-                            <li>
-                                <a href="#sass">Sass variables</a>
+                            <LI>
+                                <a href="#sass">萨斯</a>的变量
                             </li>
-                            <li>
-                                <a href="../docs/plugin-api.html">Plugin API </a>
+                            <LI>
+                                <a href="../docs/plugin-api.html">插件API</A>
                             </li>
-                            <li>
-                                <a href="../docs/support.html">Support </a>
+                            <LI>
+                                <a href="../docs/support.html">支持</a>
                             </li>
                         </ul>
                     </nav>
@@ -1485,17 +1473,8 @@ data-ad-slot="7879883012"></ins>
             <a target="_blank" href="https://twitter.com/sachinchoolur"><img src="../static/img/social/twitter.png"></a>
             <a target="_blank" href="https://in.linkedin.com/in/sachinchoolur"><img src="../static/img/social/linked-in.png"></a>
         </footer>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-49767543-5', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+        <script src="https://ajax.c2cmalls.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="../static/js/prettify.js"></script>
         <script src="../static/js/transition.js"></script>
         <script src="../static/js/collapse.js"></script>
