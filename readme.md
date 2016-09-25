@@ -8,42 +8,42 @@ Full featured JavaScript lightbox gallery. No dependencies.
 
 ![lightgallery](https://raw.githubusercontent.com/sachinchoolur/lightgallery.js/gh-pages/lightgallery.png)
 
-## Demo
+## 演示
 
 * [lightgallery demo](https://sachinchoolur.github.io/lightgallery.js/)
 * [Codepen demo](https://codepen.io/sachinchoolur/pen/qNyvGW)
 
-## Main features
+## 主要特点
 
-* Fully responsive.
-* Modular architecture with built in plugins.
-* Touch support for mobile devices.
-* Mouse drag supports for desktops.
-* Double-click/Double-tap to see actual size of the image.
-* Animated thumbnails.
-* Social media sharing.
-* YouTube, Vimeo, Dailymotion, VK and HTML5 video support.
-* 20+ Hardware-Accelerated CSS3 transitions.
-* Dynamic mode.
-* Full screen support.
-* Supports zoom.
-* Browser history API.
-* Responsive images.
-* HTML iframe support.
-* Multiple instances on one page.
-* Easily customizable via CSS (SCSS) and Settings.
-* Smart image preloading and code optimization.
-* Keyboard Navigation for desktop.
-* Font icon support.
-* And many more.
+*充分响应。
+*模块化结构与内置的插件。
+*用于移动设备的触摸支持。
+*鼠标拖动支持桌面。
+*双击/双击可看到图像的实际大小。
+*动画缩略图。
+*社交媒体共享。
+* YouTube上，Vimeo的，土豆网，VK和HTML5视频支持。
+*20 +硬件加速CSS3过渡。
+*动态模式。
+*全屏幕的支持。
+*支持变焦。
+*浏览器历史记录的API。
+*响应图像。
+* HTML iframe支持。
+*在一个页面上的多个实例。
+*通过CSS（SCSS）和设置轻松定制。
+*智能图像预加载和代码优化。
+*键盘导航桌面。
+*字体图标支持。
+* 还有很多。
 
-## Browser support
+## 浏览器支持
 
-lightgallery supports all major browsers including IE 9 and above.
+lightgallery支持所有主要的浏览器IE9，包括以上.
 
 ## Installation
 
-### Install with Bower
+### 安装 Bower
 
 You can install `lightgallery` using the [Bower](http://bower.io) package manager.
 
@@ -59,9 +59,9 @@ You can also find `lightgallery` on [npm](https://www.npmjs.com/).
 npm install lightgallery.js
 ```
 
-### Download from GitHub
+### 从GitHub下载
 
-You can also directly download lightgallery from GitHub.
+您也可以直接从GitHub下载lightgallery.
 
 ## Include CSS and JavaScript files
 
@@ -88,8 +88,8 @@ If you want to include any lightgallery plugin you can include it after `lightga
 </body>
 ```
 
-Lightgallery also supports AMD, CommonJS and ES6 modules.
-When you use AMD make sure that lightgallery.js is loaded before lightgallery modules.
+Lightgallery还支持AMD，CommonJS的和ES6模块。
+当您使用AMD确保lightgallery.js之前lightgallery模块加载.
 
 ```js
 require(['./lightgallery.js'], function() {
